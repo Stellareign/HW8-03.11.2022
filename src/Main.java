@@ -8,7 +8,7 @@ public class Main {
         int i = 1;
         while (saving <= 2_459_000) {
             saving = deposit + saving*percentMonth;
-            System.out.print("Месяц " + (i++) + " - сумма накоплений равна " + saving + ". ");
+            System.out.println("Месяц " + (i++) + " - сумма накоплений равна " + saving + ". ");
         }
     }
 }
