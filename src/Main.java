@@ -22,5 +22,17 @@ public class Main {
         for (number = 10; number >= 1; number--) {
             System.out.print(number + "; ");
         }
+        System.out.println("" +
+                "");
+        System.out.println("Домашка 8, часть 1, задача 3, WHILE/FOR - численность населения:");
+        int year = 2020;
+        int populationStart = 12_000_000;
+        int populationGrowth = 17 * (12_000_000 / 1000);
+        int populationDecline = 8 * (12_000_000 / 1000);
+        int population = populationStart + populationGrowth - populationDecline;
+        for (int period = 1; period <= 10; period++){
+             population = population + populationGrowth - populationDecline;
+             System.out.println("В году " + (year++) + " численность населения соствляет " + population +" человек.");
+    }
     }
 }
