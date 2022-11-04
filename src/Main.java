@@ -8,7 +8,19 @@ public class Main {
         int i = 1;
         while (saving <= 2_459_000) {
             saving = deposit + saving*percentMonth;
-            System.out.println("Месяц " + (i++) + " - сумма накоплений равна " + saving + ". ");
+            System.out.print("Месяц " + (i++) + " - сумма накоплений равна " + saving + ". ");
+        }
+        System.out.println("" +
+                "");
+        System.out.println("Домашка 8, часть 1, задача 2, WHILE/FOR числа от 1 до 10:");
+        int number = 1;
+        while (number <= 10) {
+            System.out.print((number++) + ("; "));
+        }
+        System.out.println("" +
+                "");
+        for (number = 10; number >= 1; number--) {
+            System.out.print(number + "; ");
         }
     }
 }
