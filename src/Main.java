@@ -8,7 +8,7 @@ public class Main {
         saving = deposit + deposit * percentMonth;
         int i = 0;
         for (; saving <= 12000_000; i++) {
-            saving = saving + deposit * percentMonth;
+            saving = saving + deposit;
             if (i % 6 == 0) {
 
                 if (saving < 1000_000) {
